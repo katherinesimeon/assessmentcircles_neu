@@ -12,22 +12,56 @@ library(dplyr)
 library(kableExtra)
 ```
   
+***
+  
 ## Objectives  
   
 1. Facilitate an exchange of assessment ideas within a group of educators.  
 2. Provide a low-stakes, safe space for educators to give and receive feedback on assessments for their courses.  
 3. Initiate long-term connections between educators across different disciplines.  
   
+***
   
 ## How It Works  
   
-
+We'll have 5 meetings throughout the semester focused on specific types of assessment (see our [schedule](#schedule) below). Participants will exchange ideas and feedback on examples provided by CATLR as well as current work that participants bring in.   
   
+Participants are encouraged to bring a relevant assessment to "workshop" during the session. This can be in any form or stage of completion, from a 1-sentence idea of something you would like to implement in class, to a fully-drafted, student-facing document.   
+  
+### Time Commitment  
+  
+In this "mix-and-match" series, participants can select the meetings they would like to attend. Although it is not required, participants are *strongly encouraged* to attend multiple meetings as applicable to them. If attending more than one session, attendees should register separately for both sessions via Eventbrite.   
+  
+***  
 
-## Schedule  
+## Schedule {#schedule}  
   
 ```{r, echo=FALSE, eval=TRUE}
 schedule <- as_tibble(read.csv("files/schedule.csv",stringsAsFactors = FALSE))
 kable(schedule) %>%
   kable_styling(bootstrap_options = "striped", full_width = F, position = "left")
 ```
+  
+***  
+  
+## Assessment Resources  
+   
+CATLR offers multiple programs and resources related to developing assessments for your courses.  
+   
+### Events  
+  
+* Spring 2021 events here! TBA  
+  
+### NEU Resources  
+     
+* [Assessment at CATLR](https://learning.northeastern.edu/explore/assessment/)  
+* [Northeastern Information Technology Resources on Online Exams](https://service.northeastern.edu/tech?id=kb_article&sys_id=42ffbee8db7f5010540e4b80ba9619fe&utm_source=091120_facstaff&utm_medium=email&utm_campaign=tech_update)  
+  
+### Teaching Tips  
+  
+* [Transparent Assignment Design](https://learning.northeastern.edu/transparent-assignment-design/)  
+* [Using Assessments to Enhance Learning](https://learning.northeastern.edu/using-assessments-to-enhance-learning/)  
+* [Early/Midterm Course Feedback](https://learning.northeastern.edu/midterm-course-feedback/)  
+* [Developing Rubrics](https://learning.northeastern.edu/developing-rubrics/)  
+  
+
