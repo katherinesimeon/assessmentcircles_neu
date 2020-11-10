@@ -1,0 +1,11 @@
+name: "CATLR Assessment Hacks"
+output_dir: "."
+navbar:
+  title: "CATLR Assessment Hacks"
+  right:
+    - icon: fa-envelope fa-lg
+      href: https://learning.northeastern.edu/contact/
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'

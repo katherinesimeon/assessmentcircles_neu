@@ -1,0 +1,33 @@
+---
+title: 'CATLR Assessment Hacks'
+output: 
+  html_document:
+    toc: TRUE
+    toc_float: TRUE
+---
+  
+```{r setup,include=FALSE}
+knitr::opts_chunk$set(cache=FALSE,echo=FALSE)
+library(dplyr)
+library(kableExtra)
+```
+  
+## Objectives  
+  
+1. Facilitate an exchange of assessment ideas within a group of educators.  
+2. Provide a low-stakes, safe space for educators to give and receive feedback on assessments for their courses.  
+3. Initiate long-term connections between educators across different disciplines.  
+  
+  
+## How It Works  
+  
+
+  
+
+## Schedule  
+  
+```{r, echo=FALSE, eval=TRUE}
+schedule <- as_tibble(read.csv("files/schedule.csv",stringsAsFactors = FALSE))
+kable(schedule) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F, position = "left")
+```
